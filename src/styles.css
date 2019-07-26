@@ -113,6 +113,9 @@ body {
   .ansArea {
     width: 40vw;
   }
+  .tag {
+    font-size: 16px;
+  }
 }
 
 /*Desktop Devices, l*/
@@ -136,11 +139,18 @@ body {
   .title {
     font-size: 64px;
   }
+  .tag {
+    font-size: 16px;
+  }
 }
 
 /*Desktop Devices, xl*/
 @media only screen and (min-width: 1200px) {
   .ansArea {
     width: 20vw;
+  }
+
+  .tag {
+    font-size: 16px;
   }
 }
